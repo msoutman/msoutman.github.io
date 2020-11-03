@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>EditPlus编辑器安装和配置html模板</title>
+      <link href="2020/11/03/02/"/>
+      <url>2020/11/03/02/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><p>首先下载好EditPlus的压缩包，并解压到相应文件夹(这里注意尽量不要压缩到C盘，另外在压缩时先新建一个文件夹然后将文件压缩到新建的文件夹里)。如图是安装成功的界面：</p></blockquote><p><img src="http://p2.so.qhmsg.com/t02e17d40274d3cc7cd.jpg"></p><blockquote><p>这里直接点我同意就行，然后依次点击工具-参数设置-模板，打开如图所示界面：</p></blockquote><p><img src="http://p2.so.qhmsg.com/t023925d5eaf4286e12.jpg"></p><blockquote><p>首先点到文件将创建备份文件的勾选去掉，将编码设置成UTF-8，然后点开模板，如图：</p></blockquote><p><img src="http://p2.so.qhmsg.com/t0252e9939846e0e471.jpg"></p><blockquote><p>点击载入，并删除原来自带的代码，换成我们自己的然后保存，如图：</p></blockquote><p><img src="http://p2.so.qhmsg.com/t02fb71fb44a7075065.jpg"></p><blockquote><p>模板内容请看下一篇文章。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> EditPlus </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>带你认识什么是web前端</title>
       <link href="2020/11/03/01/"/>
       <url>2020/11/03/01/</url>
