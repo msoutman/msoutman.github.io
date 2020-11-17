@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>7</title>
+      <title>元素类别及标签嵌套规则</title>
       <link href="2020/11/17/07/"/>
       <url>2020/11/17/07/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="元素类别及标签嵌套规则"><a href="#元素类别及标签嵌套规则" class="headerlink" title="元素类别及标签嵌套规则"></a>元素类别及标签嵌套规则</h1><h2 id="元素类别"><a href="#元素类别" class="headerlink" title="元素类别"></a>元素类别</h2><h3 id="block-块级元素"><a href="#block-块级元素" class="headerlink" title="block 块级元素"></a>block 块级元素</h3><blockquote><p>功能 ：用来搭建结构，承载内容，布局<br>eg:div,ul,ol,dl,li,h1~h6,p</p></blockquote><p>特点：</p><p>1.独占一行<br>2.默认宽度为父级的100%<br>3.可以直接设置宽高<br>4.对margin,padding有效</p><h3 id="inline-行内元素"><a href="#inline-行内元素" class="headerlink" title="inline 行内元素"></a>inline 行内元素</h3><blockquote><p>功能：用来区分，强调，细节化<br>eg:span,strong,em…,a</p></blockquote><p>特点：</p><ol><li>横排排列，直到装不下才会换行</li><li>不能直接设置宽高(内容撑开width height)</li><li>对垂直方向上的margin,padding无效</li></ol><h3 id="inline-block-行内块级元素"><a href="#inline-block-行内块级元素" class="headerlink" title="inline-block 行内块级元素"></a>inline-block 行内块级元素</h3><p>特点：</p><ol><li>既能设置宽高，又能在同一行中排列</li></ol><h3 id="行内替换元素：img-input"><a href="#行内替换元素：img-input" class="headerlink" title="行内替换元素：img input"></a>行内替换元素：img input</h3><h2 id="标签嵌套规则"><a href="#标签嵌套规则" class="headerlink" title="标签嵌套规则"></a>标签嵌套规则</h2><ol><li>块级元素可以嵌套大部分块级和行内元素</li><li>行内元素不能套块级，可以套行内</li><li>特殊的h1~h6,p,dt,不能套块级，只能套行内</li><li>同级的元素类别要相同</li></ol>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 元素 </tag>
+            
+        </tags>
       
     </entry>
     
