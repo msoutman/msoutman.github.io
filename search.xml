@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>十六进制颜色以及它的规律</title>
+      <link href="2020/11/17/08/"/>
+      <url>2020/11/17/08/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="16进制颜色的数值意义："><a href="#16进制颜色的数值意义：" class="headerlink" title="16进制颜色的数值意义："></a>16进制颜色的数值意义：</h2><p>举个例子：比如 #1A2BF4（不区分大小写），前两位1A表示的是RGB中R（Red：红色），2B表示的是RGB中的G（Green：绿色），F4表示RGB中的B（Blue：蓝色），大小从00（0）到FF（255），数值越高，颜色越深。</p><h2 id="16进制颜色的混合："><a href="#16进制颜色的混合：" class="headerlink" title="16进制颜色的混合："></a>16进制颜色的混合：</h2><p>比如对于#FF0000，绿色和蓝色都是00，而红色则是FF，则该颜色#FF0000就是红色，#550000也是红色，但是要比#FF0000的红要浅。同理，#00FF00表示绿色，#0000FF表示蓝色。</p><p>根据颜色混合原理，其实是跟物理学是一样的，红绿混合（#FFFF00）为黄色，红蓝混合（#FF00FF）为紫红色（也叫洋红），蓝绿混合（#00FFFF）为青色，而红绿蓝混合（#FFFFFF）则是白色，</p><p>#000000为黑色。</p><p>将#XXYYZZ分组，XX为第一组，YY为第二组，ZZ为第三组。显然XX，YY，ZZ分别对应红绿蓝。</p><p>1.当第一组较大，其余两组较小时，颜色偏红。</p><p>2.当第二组较大，其余两组较小时，颜色偏绿。</p><p>3.当第三组较大，其余两组较小时，颜色偏蓝。</p><p>4.当第一、二组较大，第三组较小时，颜色偏黄。      (红、绿多）</p><p>5.当第一、三组较大，第二组较小时，颜色偏紫红。（红、蓝多）</p><p>6.当第二、三组较大，第一组较小时，颜色偏青。    （绿、蓝多）</p><p>7.三组比较接近或相等时，颜色为灰色。可以通过改变数值大小来调配灰色的深浅（也可以叫明暗，数值越高越明亮，低则较暗）。如#e3e3e3表示的灰色比#a3a3a3表示的灰色要浅，当接近（#FFFFFF白色）时，灰色就很浅了。</p><h2 id="颜色的明暗（深浅）："><a href="#颜色的明暗（深浅）：" class="headerlink" title="颜色的明暗（深浅）："></a>颜色的明暗（深浅）：</h2><p>对于一个纯色的值是0<del>255即256种，对应00</del>FF，当颜色处于中间即 256/2=128（换算成16进制为80），可以看成为颜色明暗的分界线。如#800000为暗红，#008000为暗绿，数值更大，颜色变亮，数值越小，颜色越暗</p><p>原文出处：<a href="https://blog.csdn.net/weixin_39037804/article/details/100266599">https://blog.csdn.net/weixin_39037804/article/details/100266599</a></p><p>转载自CSDN</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 颜色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>元素类别及标签嵌套规则</title>
       <link href="2020/11/17/07/"/>
       <url>2020/11/17/07/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="元素类别及标签嵌套规则"><a href="#元素类别及标签嵌套规则" class="headerlink" title="元素类别及标签嵌套规则"></a>元素类别及标签嵌套规则</h1><h2 id="元素类别"><a href="#元素类别" class="headerlink" title="元素类别"></a>元素类别</h2><h3 id="block-块级元素"><a href="#block-块级元素" class="headerlink" title="block 块级元素"></a>block 块级元素</h3><blockquote><p>功能 ：用来搭建结构，承载内容，布局<br>eg:div,ul,ol,dl,li,h1~h6,p</p></blockquote><p>特点：</p><p>1.独占一行<br>2.默认宽度为父级的100%<br>3.可以直接设置宽高<br>4.对margin,padding有效</p><h3 id="inline-行内元素"><a href="#inline-行内元素" class="headerlink" title="inline 行内元素"></a>inline 行内元素</h3><blockquote><p>功能：用来区分，强调，细节化<br>eg:span,strong,em…,a</p></blockquote><p>特点：</p><ol><li>横排排列，直到装不下才会换行</li><li>不能直接设置宽高(内容撑开width height)</li><li>对垂直方向上的margin,padding无效</li></ol><h3 id="inline-block-行内块级元素"><a href="#inline-block-行内块级元素" class="headerlink" title="inline-block 行内块级元素"></a>inline-block 行内块级元素</h3><p>特点：</p><ol><li>既能设置宽高，又能在同一行中排列</li></ol><h3 id="行内替换元素：img-input"><a href="#行内替换元素：img-input" class="headerlink" title="行内替换元素：img input"></a>行内替换元素：img input</h3><h2 id="标签嵌套规则"><a href="#标签嵌套规则" class="headerlink" title="标签嵌套规则"></a>标签嵌套规则</h2><ol><li>块级元素可以嵌套大部分块级和行内元素</li><li>行内元素不能套块级，可以套行内</li><li>特殊的h1~h6,p,dt,不能套块级，只能套行内</li><li>同级的元素类别要相同</li></ol>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="元素类别及标签嵌套规则"><a href="#元素类别及标签嵌套规则" class="headerlink" title="元素类别及标签嵌套规则"></a>元素类别及标签嵌套规则</h1><h2 id="元素类别"><a href="#元素类别" class="headerlink" title="元素类别"></a>元素类别</h2><h3 id="block-块级元素"><a href="#block-块级元素" class="headerlink" title="block 块级元素"></a>block 块级元素</h3><blockquote><p>功能 ：用来搭建结构，承载内容，布局<br>eg:div,ul,ol,dl,li,h1~h6,p</p></blockquote><p>特点：</p><ol><li>独占一行</li><li>默认宽度为父级的100%</li><li>可以直接设置宽高</li><li>对margin,padding有效</li></ol><h3 id="inline-行内元素"><a href="#inline-行内元素" class="headerlink" title="inline 行内元素"></a>inline 行内元素</h3><blockquote><p>功能：用来区分，强调，细节化<br>eg:span,strong,em…,a</p></blockquote><p>特点：</p><ol><li>横排排列，直到装不下才会换行</li><li>不能直接设置宽高(内容撑开width height)</li><li>对垂直方向上的margin,padding无效</li></ol><h3 id="inline-block-行内块级元素"><a href="#inline-block-行内块级元素" class="headerlink" title="inline-block 行内块级元素"></a>inline-block 行内块级元素</h3><p>特点：</p><ol><li>既能设置宽高，又能在同一行中排列</li></ol><h3 id="行内替换元素：img-input"><a href="#行内替换元素：img-input" class="headerlink" title="行内替换元素：img input"></a>行内替换元素：img input</h3><h2 id="标签嵌套规则"><a href="#标签嵌套规则" class="headerlink" title="标签嵌套规则"></a>标签嵌套规则</h2><ol><li>块级元素可以嵌套大部分块级和行内元素</li><li>行内元素不能套块级，可以套行内</li><li>特殊的h1~h6,p,dt,不能套块级，只能套行内</li><li>同级的元素类别要相同</li></ol>]]></content>
       
       
       
