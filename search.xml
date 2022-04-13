@@ -169,17 +169,17 @@
     
     
     <entry>
-      <title>写在前面</title>
-      <link href="2020/10/17/first/"/>
-      <url>2020/10/17/first/</url>
+      <title>带你认识什么是web前端</title>
+      <link href="2020/11/03/01/"/>
+      <url>2020/11/03/01/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre><code>大家好，我是博主，网名墨殇。这是第一篇文章还真不知道发点啥，稀碎的文笔更让我不知所措，我就不信了，我还说不出点废话来…</code></pre><h2 id="关于一只理智“猿”"><a href="#关于一只理智“猿”" class="headerlink" title="关于一只理智“猿”"></a>关于一只理智“猿”</h2><p>​    这个名字起的我给我自己打满分，没错我就是认为我自己是一个理智的人，也是一只理智“猿”。让程序崩溃的永远是bug但bug永远不能让我崩溃。对于我来说搞程序就是为了搞钱，等我有钱了我再也不搞程序了…</p><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>​    像我这样懒散的人当博主也是一件不容易的事，平时学习都没个笔记的人，居然要在这里分享心得，当然更多的是一些复制粘贴来的技术文章。怎么说呢，也是一种学习吧，正好有需要（忘了说了，我是搞“钱”端滴）系统的整理一遍知识体系，那我就在这整理了，对我来说我可能真差点系统的学习，正好借这个机会，大家一起学习喽！</p><pre><code>看吧，废话我还是能扯的…下一篇开始发web前端相关的文章。</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>web前端开发是从网页设计开发演变而来，在互联网演化进程中，网页设计开发是web1.0的产物，那时网站的主要内容都是静态的，用户使用网站的行为也以浏览为主。</p><p>随着web技术的不断提升，网站的前端由此发生了翻天覆地的变化。网页不再只是承载单一的文字和图片，各种丰富媒体让网页的内容更加生动，网页上软件化的交互形式为用户提供了更好的使用体验。由此诞生了web前端。</p><p><img src="https://pic4.zhimg.com/80/v2-2b6f0c53d8e6fc003ce2d73cb062e6cb_720w.jpg?source=1940ef5c"></p><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h2><p>web（World Wide Web）即全球广域网，也称为万维网，它是一种基于超文本和HTTP的、全球性的、动态交互的、跨平台的分布式图形信息系统。是建立在Internet上的一种网络服务，为浏览者在Internet上查找和浏览信息提供了图形化的、易于访问的直观界面，其中的文档及超级链接将Internet上的信息节点组织成一个互为关联的网状结构。</p><h2 id="2-web前端包括那些技术？"><a href="#2-web前端包括那些技术？" class="headerlink" title="2.web前端包括那些技术？"></a>2.web前端包括那些技术？</h2><p>前端三大基础毫无疑问就是HTML、CSS和JS。HTML被叫做“骨”，它是用来描述网页内容和结构的。css被叫做“肉”，他是用来描述网页的样式的。js也是在web前端开发中尤为重要的一门基础技术，它也被叫做“魂”，它用来处理网页中的交互行为，随着ES6+的不断演变，开始有了node.js能运行在服务端的语言，js的热度一下子就上去了。</p><h2 id="3-流行的框架和组件"><a href="#3-流行的框架和组件" class="headerlink" title="3.流行的框架和组件"></a>3.流行的框架和组件</h2><h3 id="UI框架"><a href="#UI框架" class="headerlink" title="UI框架"></a>UI框架</h3><ul><li>Bootstrap、Element-UI、Color UI</li></ul><h3 id="js框架"><a href="#js框架" class="headerlink" title="js框架"></a>js框架</h3><ul><li>Angular.js、Vue.js、React.js</li></ul><h3 id="可视化组件"><a href="#可视化组件" class="headerlink" title="可视化组件"></a>可视化组件</h3><ul><li>Echarts</li></ul>]]></content>
       
       
       
         <tags>
             
-            <tag> 废话 </tag>
+            <tag> web前端 </tag>
             
         </tags>
       
