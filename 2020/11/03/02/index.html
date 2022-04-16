@@ -79,7 +79,7 @@ var saveToLocal = {
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
-  isSidebar: ,
+  isSidebar: false,
   postUpdate: '2020-11-04 19:15:13'
 }</script><noscript><style type="text/css">
   #nav {
@@ -107,7 +107,7 @@ var saveToLocal = {
     }
   }
 
-  const autoChangeMode = 'false'
+  const autoChangeMode = 'true'
   const t = saveToLocal.get('theme')
   if (autoChangeMode === '1') {
     const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
